@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/mLinearLayoutMessage"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/loginpagebgcolor"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Dummy"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ibDelete"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/ic_mey_delete"
+                    />
+                
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    
+</LinearLayout>
